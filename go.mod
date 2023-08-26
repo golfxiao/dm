@@ -1,4 +1,4 @@
-module gnetis.com/golang/open-source/dm
+module github.com/golfxiao/dm
 
 go 1.13
 
