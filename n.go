@@ -10,9 +10,10 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"fmt"
-	"gnetis.com/golang/open-source/dm/parser"
-	"golang.org/x/text/encoding"
 	"sync/atomic"
+
+	"github.com/golfxiao/dm/parser"
+	"golang.org/x/text/encoding"
 )
 
 type DmConnection struct {

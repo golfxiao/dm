@@ -6,12 +6,13 @@ package dm
 
 import (
 	"bytes"
-	"gnetis.com/golang/open-source/dm/util"
 	"io"
 	"math/big"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/golfxiao/dm/util"
 )
 
 var G2DB g2db

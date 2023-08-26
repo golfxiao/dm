@@ -7,12 +7,13 @@ package dm
 
 import (
 	"bufio"
-	"gnetis.com/golang/open-source/dm/util"
 	"io"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/golfxiao/dm/util"
 )
 
 var LogDirDef, _ = os.Getwd()

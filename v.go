@@ -10,13 +10,14 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"fmt"
-	"gnetis.com/golang/open-source/dm/util"
 	"io"
 	"math/big"
 	"reflect"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/golfxiao/dm/util"
 )
 
 const (

@@ -8,8 +8,9 @@ package dm
 import (
 	"bytes"
 	"fmt"
-	"gnetis.com/golang/open-source/dm/i18n"
 	"runtime"
+
+	"github.com/golfxiao/dm/i18n"
 )
 
 // 驱动级错误
@@ -71,7 +72,7 @@ var (
 	ECGO_FATAL_ERROR     = newDmError(20004, "error.fatalError")
 )
 
-//Svr Msg Err
+// Svr Msg Err
 var (
 	ECGO_DATA_OVERFLOW       = newDmError(-6102, "error.dataOverflow")
 	ECGO_DATETIME_OVERFLOW   = newDmError(-6112, "error.datetimeOverflow")

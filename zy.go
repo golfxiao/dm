@@ -9,11 +9,12 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"errors"
-	"gnetis.com/golang/open-source/dm/util"
 	"io"
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/golfxiao/dm/util"
 )
 
 const (

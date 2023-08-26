@@ -8,8 +8,9 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"gnetis.com/golang/open-source/dm/i18n"
 	"sync"
+
+	"github.com/golfxiao/dm/i18n"
 )
 
 // 发版标记

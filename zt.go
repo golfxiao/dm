@@ -7,13 +7,14 @@ package dm
 
 import (
 	"fmt"
-	"gnetis.com/golang/open-source/dm/util"
 	"math"
 	"strconv"
 	"strings"
 	"time"
 	"unicode"
 	"unicode/utf8"
+
+	"github.com/golfxiao/dm/util"
 )
 
 type oracleDateFormat struct {

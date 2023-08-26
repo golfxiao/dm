@@ -6,10 +6,11 @@ package dm
 
 import (
 	"database/sql/driver"
-	"gnetis.com/golang/open-source/dm/util"
 	"math"
 	"strconv"
 	"strings"
+
+	"github.com/golfxiao/dm/util"
 )
 
 const (

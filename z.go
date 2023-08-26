@@ -7,10 +7,11 @@ package dm
 
 import (
 	"bytes"
-	"gnetis.com/golang/open-source/dm/util"
 	"math/rand"
 	"sync"
 	"time"
+
+	"github.com/golfxiao/dm/util"
 )
 
 /**

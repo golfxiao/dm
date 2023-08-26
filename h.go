@@ -6,7 +6,6 @@ package dm
 
 import (
 	"fmt"
-	"gnetis.com/golang/open-source/dm/util"
 	"math"
 	"os"
 	"sort"
@@ -15,6 +14,8 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/golfxiao/dm/util"
 )
 
 type ExecuteTypeEnum int

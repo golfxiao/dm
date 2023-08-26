@@ -5,8 +5,9 @@
 package dm
 
 import (
-	"gnetis.com/golang/open-source/dm/util"
 	"strconv"
+
+	"github.com/golfxiao/dm/util"
 )
 
 const (

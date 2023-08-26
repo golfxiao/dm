@@ -7,11 +7,12 @@ package dm
 import (
 	"bytes"
 	"crypto/tls"
-	"gnetis.com/golang/open-source/dm/security"
 	"net"
 	"strconv"
 	"time"
 	"unicode/utf8"
+
+	"github.com/golfxiao/dm/security"
 )
 
 const (

@@ -5,9 +5,10 @@
 package dm
 
 import (
-	"gnetis.com/golang/open-source/dm/util"
 	"strconv"
 	"time"
+
+	"github.com/golfxiao/dm/util"
 )
 
 var DB2G db2g

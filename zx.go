@@ -6,10 +6,11 @@
 package dm
 
 import (
-	"gnetis.com/golang/open-source/dm/util"
 	"math/rand"
 	"strconv"
 	"time"
+
+	"github.com/golfxiao/dm/util"
 )
 
 var rwMap = make(map[string]*rwCounter)

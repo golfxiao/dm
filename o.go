@@ -8,7 +8,6 @@ import (
 	"bytes"
 	"context"
 	"database/sql/driver"
-	"gnetis.com/golang/open-source/dm/util"
 	"net"
 	"net/url"
 	"os"
@@ -17,6 +16,8 @@ import (
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/golfxiao/dm/util"
 )
 
 const (

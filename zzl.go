@@ -6,10 +6,11 @@ package dm
 
 import (
 	"bytes"
-	"gnetis.com/golang/open-source/dm/parser"
-	"gnetis.com/golang/open-source/dm/util"
 	"strconv"
 	"strings"
+
+	"github.com/golfxiao/dm/parser"
+	"github.com/golfxiao/dm/util"
 )
 
 func (dc *DmConnection) lex(sql string) ([]*parser.LVal, error) {
